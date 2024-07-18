@@ -12,7 +12,10 @@ public class Triangle {
 		if (sumOfAngles == 180) {
 			System.out.println("The given Angles forms Triangle");
 		}
+                 else {
+			System.out.println("The given Angles not form Triangle");
 
+		}
 	}
 
 }
