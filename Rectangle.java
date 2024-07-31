@@ -14,23 +14,18 @@ public class Rectangle {
 		System.out.print("enter breadth of rectangel:");
 		float breadth = sc.nextFloat();
 	/*----------------------------------------------------------------------------------------------*/	
-		/*------------gives perimeter of rectangle--------------*/
+		
 		if(length>0&&breadth>0)
 		{
+			/*------------gives perimeter of rectangle--------------*/
 		System.out.println("Perimeter of Rectangel is:" + perimeterOfRectangle(length, breadth));
+			/*------------gives area of rectangle--------------*/
+		System.out.println("Area of a Rectangle is:" + areaOfRectangle(length, breadth));
 		}
 		else {
 			System.err.println("enter positive values");
 		}
-		/*----------------------------------------------------------------------------------------------*/	
-		/*------------ gives area of rectangle--------------------*/
-		if(length>0&&breadth>0)
-		{
-			System.out.println("Area of a Rectangle is:" + areaOfRectangle(length, breadth));
-		}
-		else {
-			System.err.println("enter positive values");
-		}
+		
 	}
 	/*----------------------------------------------------------------------------------------------*/	
 	/*-----------caliculates perimeter of rectangle---------------*/
