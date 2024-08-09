@@ -5,8 +5,7 @@ public class CarMain {
 	public static void main(String[] args) {
 		// mahindra object created
 		Mahindra m = new Mahindra();
-		// it will display the brand
-
+		// it will display the features
 		m.dispalyFeatures();
 
 		// car will starts if we call the method
